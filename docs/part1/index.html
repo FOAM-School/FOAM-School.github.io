@@ -7,7 +7,7 @@
 
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
-<link rel="alternate" type="application/rss&#43;xml" href="/docs/index.xml">
+<link rel="alternate" type="application/rss&#43;xml" href="/docs/part1/index.xml">
 
 
 <link rel="shortcut icon" href="/favicons/favicon.ico" >
@@ -21,17 +21,20 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title>Course Content | Basic Reservoir Engineering Simulations with OpenFOAM</title><meta property="og:title" content="Course Content" />
-<meta property="og:description" content="Leveraging the power and flexibility of OpenFOAM code for Reservoir Engineering Ends" />
+<title>Part 1: Basic OpenFOAM Usage | Basic Reservoir Engineering Simulations with OpenFOAM</title><meta property="og:title" content="Part 1: Basic OpenFOAM Usage" />
+<meta property="og:description" content="For OpenFOAM beginners to step up their game and acquire Advanced-Level skills (as OpenFOAM users) by learning every step in OpenFOAM&#39;s workflow 
+" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="/docs/" />
+<meta property="og:url" content="/docs/part1/" />
 <meta property="og:site_name" content="Basic Reservoir Engineering Simulations with OpenFOAM" />
-<meta itemprop="name" content="Course Content">
-<meta itemprop="description" content="Leveraging the power and flexibility of OpenFOAM code for Reservoir Engineering Ends">
+<meta itemprop="name" content="Part 1: Basic OpenFOAM Usage">
+<meta itemprop="description" content="For OpenFOAM beginners to step up their game and acquire Advanced-Level skills (as OpenFOAM users) by learning every step in OpenFOAM&#39;s workflow 
+">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Course Content"/>
-<meta name="twitter:description" content="Leveraging the power and flexibility of OpenFOAM code for Reservoir Engineering Ends"/>
+<meta name="twitter:title" content="Part 1: Basic OpenFOAM Usage"/>
+<meta name="twitter:description" content="For OpenFOAM beginners to step up their game and acquire Advanced-Level skills (as OpenFOAM users) by learning every step in OpenFOAM&#39;s workflow 
+"/>
 
 
 
@@ -49,7 +52,7 @@
   crossorigin="anonymous"></script>
 
 
-    <title>Course Content | Basic Reservoir Engineering Simulations with OpenFOAM</title>
+    <title>Part 1: Basic OpenFOAM Usage | Basic Reservoir Engineering Simulations with OpenFOAM</title>
   </head>
   <body class="td-section">
     <header>
@@ -144,7 +147,7 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Course</a>
+    <a  href="/docs/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Course</a>
   </li>
   <ul>
     <li class="collapse show" id="docs">
@@ -161,7 +164,7 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/part1/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Part 1</a>
+    <a  href="/docs/part1/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Part 1</a>
   </li>
   <ul>
     <li class="collapse show" id="docs-part1">
@@ -199,8 +202,8 @@
 
 
 
-<a href="https://github.com/FOAM-School/ResEng-Course-Website/edit/master/content/en/docs/_index.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/FOAM-School/ResEng-Course-Website/issues/new?title=Course%20Content" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+<a href="https://github.com/FOAM-School/ResEng-Course-Website/edit/master/content/en/docs/Part1/_index.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/FOAM-School/ResEng-Course-Website/issues/new?title=Part%201:%20Basic%20OpenFOAM%20Usage" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 
 
 <a href="https://github.com/FoamScience/OpenRSR/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
@@ -216,10 +219,10 @@
 <ul>
 <li>
 <ul>
-<li><a href="#this-is-an-opinionated-course">This is an Opinionated course!</a></li>
-<li><a href="#course-workflow">Course workflow</a></li>
-<li><a href="#rules-for-engaging-in-group-activities">Rules for engaging in group activities</a></li>
-<li><a href="#contributions">Contributions</a></li>
+<li><a href="#what-does-this-part-prensent">What does this part prensent?</a></li>
+<li><a href="#why-do-i-want-to-go-through-this-part">Why do I want to go through this part?</a></li>
+<li><a href="#potentially-useful-tools">Potentially Useful tools</a></li>
+<li><a href="#where-should-i-go-next">Where should I go next?</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -238,8 +241,18 @@
 
 
 
-<li class="breadcrumb-item active" aria-current="page">
+
+
+
+<li class="breadcrumb-item" >
 	<a href="/docs/">Course</a>
+</li>
+
+
+
+
+<li class="breadcrumb-item active" aria-current="page">
+	<a href="/docs/part1/">Part 1</a>
 </li>
 
 	</ol>
@@ -247,85 +260,84 @@
 
             
 <div class="td-content">
-	<h1>Course Content</h1>
+	<h1>Part 1: Basic OpenFOAM Usage</h1>
+	<div class="lead">For OpenFOAM beginners to step up their game and acquire Advanced-Level skills (as OpenFOAM users) by learning every step in OpenFOAM&rsquo;s workflow</div>
 	
-	
 
+<h2 id="what-does-this-part-prensent">What does this part prensent?</h2>
 
+<p>This part of the course is optimized for OpenFOAM beginners (which are usually also Linux-novices)
+so that they get comfortable running OpenFOAM cases and processing their results.</p>
 
-<div class="pageinfo pageinfo-primary">
-<p>The course is packaged in two <strong>parts</strong>:</p>
+<p>The whole part is an introduction to the course&rsquo;s core (the second part). So it may seem &ldquo;fast-paced&rdquo;
+for some learners.</p>
 
-<ul>
-<li><em>Part 1:</em> For those who never used OpenFOAM before, requires no (to little) programming skills</li>
-<li><em>Part 2:</em> For those who are already efficient in dealing with C++ code and have some experience
-with OpenFOAM cases.</li>
-</ul>
+<p>The part mainly introduces the software packages used throughout the course and helps
+you set up a production labs environment to follow along and solve the assignments.</p>
 
-<p>It&rsquo;s recommended that you open a <strong>LinuxOne-Community</strong> Account before beginning the course</p>
+<p>Then, it tries to present a One-Thousand-Foot view of a general simulation workflow
+by comparing manual and OpenFOAM-based solution workflow for a simplified transport problem.
+This is what the module <strong>OpenFOAM Simulation in a nutshell</strong> is for.</p>
 
-<p>Enjoy!</p>
-
-</div>
-
-
-<h2 id="this-is-an-opinionated-course">This is an Opinionated course!</h2>
-
-<p><strong>Every single</strong> tool that will be used throughout the course is of course replaceable; I work
-with what&rsquo;s convenient for me - but it might not be the perfect choice for you!</p>
-
-<p>That said, there are some assumptions I make on your background:</p>
+<p>After that, we&rsquo;ll dig a little deeper in each simulation workflow step:</p>
 
 <ul>
-<li>You are running a Recent Linux Distribution (Ubuntu-Like preferred). It&rsquo;s not a requirement!
-But you&rsquo;re on your own if you&rsquo;re running something else!</li>
-<li>You&rsquo;ve read the first few (Five or so) sections of OpenFOAM&rsquo;s User Guide.</li>
-<li>You are willing to write code, debug it and share it with others.</li>
-<li>You do have some programming experience in some language (C++ and Python are preferred).</li>
-<li>You have a Github account and know how to use Git.</li>
+<li>The meshing step: Where we investigate some mesh tools and the quality of generated meshes.</li>
+<li>Equation discretization: Where we discuss finite volume schemes (from a practical point of
+view) and their usage in Reservoir Engineering context.</li>
+<li>OpenFOAM Case preparation and processing of generated results: Where we explore the usefulness
+of <code>functionObjects</code> from a user&rsquo;s perspective, and even the powerful SWAK4FOAM package.</li>
 </ul>
 
-<h2 id="course-workflow">Course workflow</h2>
+<p>At this point, the learner can already consider himself an intermediate-user (if he has enough
+experience of course), but there is more!</p>
 
-<ol>
-<li>The course is divided into two parts, each contains a set of modules.</li>
-<li>Each module has a set of lecture videos, individual and/or group assignments.</li>
-<li>Individual assignments involve answering quiz-like questions.</li>
-<li>Group assignments are mini-projects to apply what you&rsquo;ve learned in the module:
-You can join a group of at most 3 individuals to carry these projects out.</li>
-<li>At the end of each part, going through a capstone project is suggested.
-You can join a team of up to 5 individuals.</li>
-</ol>
+<p>Towards the end-goal of performing design-optimization studies, we first introduce PyFOAM,
+a Python-based package which can incredibly simplify the process of automating the
+simulation workflow steps  learned up to this point (If you know some Python of course).</p>
 
-<p>It&rsquo;s recommended that you use the labs environment (we will help you set it up) but it&rsquo;s
-completely optional.</p>
+<p>Once we&rsquo;re done with that, we get into <strong>Parameterization and Optimization of OpenFOAM Cases</strong>
+where you&rsquo;ll learn to parametrize OpenFOAM cases using both PyFOAM and DAKOTA.</p>
 
-<h2 id="rules-for-engaging-in-group-activities">Rules for engaging in group activities</h2>
+<p>I would call anyone who has survived this far an <strong>advanced OpenFOAM user</strong>. But for this user to
+become an advanced <strong>reservoir-engineering-minded</strong> OpenFOAM user, he has to go through the last
+(but completely optional) module: Porous Media Simulations.</p>
+
+<h2 id="why-do-i-want-to-go-through-this-part">Why do I want to go through this part?</h2>
 
 <ul>
-<li>We use Github repos for the assignments: you can contribute to, review and improve the code
-posted by your teammates.</li>
-<li>Joining existing groups should be preferred over creating new ones.</li>
-<li>Please don&rsquo;t meddle with the repos&rsquo; history (no <code>squashes</code>, no <code>fixups</code>) while working in a group!
-It breaks things for your teammates and makes them angry for no reason.</li>
-<li>Use Pull Requests to merge branches (or at least, use the <code>--no-ff</code> option on the command line).
-It&rsquo;s important to keep track of who did what!</li>
-<li>Forking code posted by another group is in fact <strong>encouraged</strong>! But you should make significant
-improvements to their version. Keep in mind that anyone can also fork your code too!</li>
+<li><p><strong>What is it good for?</strong>: Becoming an advanced OpenFOAM user. Looking at the Reservoir Engineering
+side of things is not compulsory. So, even if you have nothing to do with this field, you
+can still benefit from this part.</p></li>
+
+<li><p><strong>What is it not good for?</strong>: There is little-to-no OpenFOAM-coding here, take a look at the second part if
+that&rsquo;s what interests you.</p>
+
+<ul>
+<li>Unless you consider medlling with SWAK4FOAM and PyFOAM &ldquo;coding&rdquo;.
+Take a look at those modules if unsure.</li>
+</ul></li>
 </ul>
 
-<h2 id="contributions">Contributions</h2>
+<h2 id="potentially-useful-tools">Potentially Useful tools</h2>
 
-<p>Spotted a <strong>typo</strong>? Or do you think may be a little &ldquo;clearer&rdquo; if said (written) in a different way?
-Just hit the &ldquo;Edit this page&rdquo; link on the top-right of this page, make your changes,
-and commit them with a useful message. I&rsquo;ll review your changes and accept them if feasible.</p>
+<ul>
+<li><strong>A text editor</strong>: You&rsquo;ll need a decent text editor to effectively edit case files. Preferably, one
+that can easily edit files on remote servers (over SSH connections). I prefer (neo)VIM because it&rsquo;s
+available on most systems by default, but there are many options: Emacs, Atom and Sublime Text to
+name a few.</li>
+<li><strong>Docker</strong>: Running things in &ldquo;containerized&rdquo; Linux instances is common practice across fields.
+It&rsquo;s more secure and convenient. Whenever you need to play with Docker Containers, head over to
+<a href="https://labs.play-with-docker.com/" target="_blank">Play-With-Docker</a></li>
+<li><strong>Shell Workspace Management</strong>: After a while, typing the same commands over and over again may get tedious.
+So, most OpenFOAM users setup some shell scripts for common tasks; while this works, I prefer
+to use a shell management tool (like <a href="https://github.com/jamesob/desk" target="_blank">desk</a>) which manages which OpenFOAM version I load and defines
+some convenience shell functions &hellip; etc</li>
+</ul>
 
-<p>Do you think there is an issue in the course content you&rsquo;re viewing? Hit the <code>Create course issue</code>
-button on the top-right of this page to open a Github issue. Explain what&rsquo;s the problem there.</p>
+<h2 id="where-should-i-go-next">Where should I go next?</h2>
 
-<p>At advanced stages of the course, you may be using some classes from my Open Reservoir Simulation
-Research (OpenRSR) toolkit. If you notice there is an issue (eg. Usage of outdated code in the course,
-or simply have a suggestion) you can open a project issue by clicking on <code>Create a project issue</code> button.</p>
+<p>Of course you should continue to the second part.</p>
 
         <div class="section-index">
     
@@ -335,13 +347,6 @@ or simply have a suggestion) you can open a project issue by clicking on <code>C
     <hr class="panel-line">
         
             
-                <div class="entry">
-                    <h5>
-                        <a href="/docs/part1/">Part 1: Basic OpenFOAM Usage</a>
-                    </h5>
-                    <p>For OpenFOAM beginners to step up their game and acquire Advanced-Level skills (as OpenFOAM users) by learning every step in OpenFOAM&rsquo;s workflow</p>
-                </div>
-            
         
             
         
@@ -350,7 +355,7 @@ or simply have a suggestion) you can open a project issue by clicking on <code>C
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified February 18, 2020: <a  href="https://github.com/FOAM-School/ResEng-Course-Website/commit/216831c5b5823180cf00c60e36fefb4cdffb3e91">Updating theme submodule (216831c)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified January 1, 0001
 </div>
 </div>
 
